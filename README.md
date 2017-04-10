@@ -1,6 +1,6 @@
 # NSS-python-nickelback
 
-##Kill Nickelback
+## Kill Nickelback
 
 In this exercises, you're going to use a conditional statement inside a comprehension. Let's look at a basic example.
 ```
@@ -12,12 +12,12 @@ words = ['big', 'red', 'dog', 'ate', 'his', 'food']
 three_letters_words = [ word.title() for word in words if len(word) == 3 ]
 # len(stringVariable) is equivalent to stringVariable.length in JavaScript
 ```
-##Setup
+## Setup
 ```
 mkdir -p ~/workspace/python/exercises/sets && cd $_
 touch nickelback.py
 ```
-##Instructions
+## Instructions
 
 1. Define a set that contains tuples. Each tuple should contain two strings:
 
